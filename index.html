@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Al Jefoon Tents | Frequently Asked Questions</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+
+background:#f3f5f8;
+color:#333;
+
+}
+
+header{
+
+background:linear-gradient(135deg,#0b3b63,#144f85);
+padding:70px 20px;
+text-align:center;
+color:white;
+
+}
+
+header h1{
+
+font-size:42px;
+
+}
+
+header p{
+
+margin-top:15px;
+font-size:18px;
+opacity:.9;
+
+}
+
+.container{
+
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+
+}
+
+.search{
+
+width:100%;
+padding:18px;
+font-size:17px;
+border:none;
+border-radius:8px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+margin-bottom:25px;
+
+}
+
+.filters{
+
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:30px;
+
+}
+
+.filter{
+
+background:#0b3b63;
+color:white;
+padding:10px 18px;
+border-radius:30px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+.filter:hover{
+
+background:#082a45;
+
+}
+
+details{
+
+background:white;
+border-radius:10px;
+padding:18px;
+margin-bottom:14px;
+box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+}
+
+summary{
+
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+list-style:none;
+
+}
+
+summary::-webkit-details-marker{
+
+display:none;
+
+}
+
+summary:after{
+
+content:"+";
+float:right;
+font-size:24px;
+
+}
+
+details[open] summary:after{
+
+content:"−";
+
+}
+
+.answer{
+
+margin-top:18px;
+line-height:1.8;
+
+}
+
+.payment{
+
+background:#dff5e7;
+border-left:5px solid #0b8a4a;
+padding:20px;
+margin:40px 0;
+border-radius:8px;
+font-size:17px;
+
+}
+
+.contact{
+
+margin-top:50px;
+background:white;
+padding:40px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact h2{
+
+margin-bottom:15px;
+
+}
+
+.contact p{
+
+margin-bottom:25px;
+
+}
+
+.button{
+
+display:inline-block;
+padding:15px 35px;
+background:#0b3b63;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+
+}
+
+.button:hover{
+
+background:#082a45;
+
+}
+
+.whatsapp{
+
+position:fixed;
+bottom:25px;
+right:25px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:34px;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+footer{
+
+text-align:center;
+padding:40px;
+color:#777;
+
+}
+
+@media(max-width:700px){
+
+header h1{
+
+font-size:32px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Frequently Asked Questions</h1>
+
+<p>Find answers to the most common questions about our services.</p>
+
+</header>
+
+<div class="container">
+
+<input class="search" id="search" type="text" placeholder="Search FAQs...">
+
+<div class="filters">
+
+<div class="filter" onclick="filterFAQ('all')">All</div>
+<div class="filter" onclick="filterFAQ('tents')">Tents</div>
+<div class="filter" onclick="filterFAQ('events')">Events</div>
+<div class="filter" onclick="filterFAQ('payment')">Payments</div>
+<div class="filter" onclick="filterFAQ('delivery')">Delivery</div>
+
+</div>
+
+<div id="faqContainer">
+
+<details class="faq tents">
+<summary>What services do you provide?</summary>
+<div class="answer">
+We provide tents, marquees, pagoda tents, catering, event furniture, steel fabrication, parking shades, staging, lighting, generators and complete event solutions.
+</div>
+</details>
+
+<details class="faq delivery">
+<summary>Which Emirates do you serve?</summary>
+<div class="answer">
+We provide delivery, installation and event services throughout the UAE.
+</div>
+</details>
+
+<details class="faq tents">
+<summary>Do you provide installation?</summary>
+<div class="answer">
+Yes. Our experienced team handles complete installation and dismantling.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Can I rent for one day?</summary>
+<div class="answer">
+Yes. Daily, weekly and monthly rentals are available.
+</div>
+</details>
+
+<details class="faq events">
+<summary>What events do you cover?</summary>
+<div class="answer">
+Corporate events, weddings, government events, exhibitions, festivals, schools and private functions.
+</div>
+</details>
+
+<details class="faq tents">
+<summary>Do you manufacture custom tents?</summary>
+<div class="answer">
+Yes. We manufacture tents according to your required dimensions.
+</div>
+</details>
+
+<details class="faq tents">
+<summary>Are your tents waterproof?</summary>
+<div class="answer">
+Yes. Our tents are designed for UAE weather conditions.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Do you provide air conditioners?</summary>
+<div class="answer">
+Yes. Tower ACs and cooling equipment are available.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Do you provide generators?</summary>
+<div class="answer">
+Yes. Generator rental is available for events of all sizes.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Do you provide furniture?</summary>
+<div class="answer">
+Yes. Chairs, tables, majlis seating, sofas and much more.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Do you offer catering?</summary>
+<div class="answer">
+Yes. Complete catering services are available.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Can you manage large projects?</summary>
+<div class="answer">
+Yes. We regularly undertake corporate and government projects.
+</div>
+</details>
+
+<details class="faq events">
+<summary>How early should I book?</summary>
+<div class="answer">
+We recommend booking as early as possible, especially during busy seasons.
+</div>
+</details>
+
+<details class="faq payment">
+<summary>How can I receive a quotation?</summary>
+<div class="answer">
+Contact us by phone or WhatsApp and we'll prepare a customised quotation.
+</div>
+</details>
+
+<details class="faq delivery">
+<summary>Do you conduct site visits?</summary>
+<div class="answer">
+Yes. Site inspections are available before installation.
+</div>
+</details>
+
+<details class="faq payment">
+<summary>What payment methods do you accept?</summary>
+<div class="answer">
+Cash, bank transfer and all major credit and debit cards.
+</div>
+</details>
+
+<details class="faq payment">
+<summary>Can I pay online?</summary>
+<div class="answer">
+Yes. Secure card payments are available directly through our website.
+</div>
+</details>
+
+<details class="faq delivery">
+<summary>Do you deliver across the UAE?</summary>
+<div class="answer">
+Yes. We deliver and install in all Emirates.
+</div>
+</details>
+
+<details class="faq events">
+<summary>Do you accept urgent bookings?</summary>
+<div class="answer">
+Yes. Subject to availability.
+</div>
+</details>
+
+<details class="faq events">
+<summary>How do I contact your team?</summary>
+<div class="answer">
+You can reach us by phone or WhatsApp, and our team will be happy to assist you.
+</div>
+</details>
+
+</div>
+
+<div class="payment">
+
+💳 <strong>Online Card Payments Available</strong><br><br>
+
+For your convenience, secure credit and debit card payments can be made directly through our website.
+
+</div>
+
+<div class="contact">
+
+<h2>Still Have a Question?</h2>
+
+<p>Our team is ready to help you with your event requirements.</p>
+
+<a class="button" href="https://wa.me/YOURNUMBER">Chat on WhatsApp</a>
+
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/YOURNUMBER">💬</a>
+
+<footer>
+
+© 2026 Al Jefoon Tents. All Rights Reserved.
+
+</footer>
+
+<script>
+
+const search=document.getElementById("search");
+
+search.addEventListener("keyup",function(){
+
+let value=this.value.toLowerCase();
+
+document.querySelectorAll(".faq").forEach(function(faq){
+
+faq.style.display=faq.innerText.toLowerCase().includes(value)?"block":"none";
+
+});
+
+});
+
+function filterFAQ(category){
+
+document.querySelectorAll(".faq").forEach(function(faq){
+
+if(category==="all"){
+
+faq.style.display="block";
+
+}
+
+else{
+
+faq.style.display=faq.classList.contains(category)?"block":"none";
+
+}
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
